@@ -1,5 +1,40 @@
 ## 배열 문법 정리
 
+- Array.prototype.forEach(callback)
+
+  - 일반적인 for문보다 forEach문이 내장함수 이기 때문에 속도가 더 빠르다.
+  - Array 적용가능 (ES6+ : Map, Set 적용 가능)
+
+  ```
+  // 1차원 배열
+  let arr = [1, 2, 3, 4];
+
+  arr.forEach((v, i) => {
+    console.log(v); // value
+    console.log(i); // index
+  });
+
+  ------------------------------------------------------------------------------------
+  // 2차원 배열
+  let arr = [[1,1], [2,2,2], [3,3,3,3]];
+
+  arr.forEach((arrObj) => {
+    arrObj.forEach((v, i) => {
+      console.log('${v} ${i}');
+    });
+  });
+
+  > 1 0
+  > 1 1
+  > 2 0
+  > 2 1
+  > 2 2
+  > 3 0
+  > 3 1
+  > 3 2
+  > 3 3
+  ```
+
 - Array.prototype.map( callback [ , thisArg ] )
 
   - 주어진 배열의 값들을 오름차순으로 접근해 callback을 통해 새로운 값을 정의하고 신규 배열을 만들어 반환
