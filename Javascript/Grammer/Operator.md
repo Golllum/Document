@@ -220,6 +220,17 @@
   > { dog: 'dog2' }
   ```
 
+  ```
+  const str = 'hello';
+
+  const arr = [...str];
+
+  console.log(Array.isArray(arr));
+  console.log(arr);
+  > true
+  > [ 'h', 'e', 'l', 'l', 'o' ]
+  ```
+
 - Short circuit
 
   - 단축 평가
