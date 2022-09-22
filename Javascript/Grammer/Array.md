@@ -1,5 +1,19 @@
 ## 배열 문법 정리
 
+- Array.prototype.slice(Number startIdx, Number endIdx)
+
+  - 인수로 주어진 시작 인덱스부터 종료 인덱스 전까지 추출하여 새 문자열로 반환한다. 단, 인수로 주어진 인덱스가 음수일 때는 뒤에서부터 인덱스를 세어 위치를 찾고 시작 인덱스가 종료 인덱스보다 크다면 ""을 반환한다.
+  - 종료 인덱스가 없다면 문자열의 length를 종료 인덱스로 취급한다.
+
+  ```
+  var str = "hello";
+
+  console.log(str.slice(0, 3)); //hel
+  console.log(str.slice(1, 0)); //""
+  console.log(str.slice(0, -2); //hel
+  console.log(str.slice(-4, 2); //e
+  ```
+
 - Array.prototype.forEach(callback)
 
   - 일반적인 for문보다 forEach문이 내장함수 이기 때문에 속도가 더 빠르다.

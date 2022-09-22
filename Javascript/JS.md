@@ -1,5 +1,12 @@
 ## Javascript
 
+- Single Threaded Language
+
+  - 하나의 Stack에서 실행되기 때문에 병렬 처리를 할 수 없다.
+  - 한 번에 코드 하나만 실행 가능하다.
+  - ajax, eventListener, setTimeout 등은 stack에 쌓아두고 대기하지 않는다.
+  - 대기 공간에 저장해뒀다가 실행 타이밍에 callback Queue OR event Queue에 올라간다.
+
 - promise API (ES6)
 
   - 자바스크립트는 비동기 처리를 위해 콜백함수를 사용한다. 하지만 콜백함수 남용으로 인해 콜백 지옥에 빠질 수 있다.
