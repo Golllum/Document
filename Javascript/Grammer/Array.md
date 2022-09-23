@@ -1,5 +1,31 @@
 ## 배열 문법 정리
 
+- Array.prototype.every(function(currentValue, index, array), thisValue))
+
+  - 배열의 각 엘리먼트에 대해서 테스트 함수의 반환 값이 모두 true인지 확인
+  - 모든 case가 true일때 true를 반환
+  - 기존 배열 값은 변경되지 않음
+
+  ```
+  var objArr = [{name: '철수', age: 10}, {name: '영희', age: 10}, {name: '바둑이', age: 2}]
+
+  console.log(objArr.every((item)=> item.age>5)); //false
+  console.log(objArr.every((item)=> item.age>1)); //true
+  ```
+
+- Array.prototype.some()
+
+  - 배열의 각 엘리먼트에 대해서 테스트 함수의 반환 값이 하나라도 true가 있는지 확인
+  - 하나라도 true가 발생하면 true를 반환
+  - 기존 배열 값은 변경되지 않음
+
+  ```
+  var objArr = [{name: '철수', age: 10},{name: '영희', age: 10}, {name: '바둑이', age: 2}]
+
+  console.log(objArr.some((item)=> item.age>5)); //true
+  console.log(objArr.some((item)=> item.age>10)); //false
+  ```
+
 - Array.prototype.find((element, index, array) => {})
 
   - 콜백 함수를 만족하는 첫 요소를 반환
