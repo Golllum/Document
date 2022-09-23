@@ -1,5 +1,19 @@
 ## 배열 문법 정리
 
+- Array.prototype.find((element, index, array) => {})
+
+  - 콜백 함수를 만족하는 첫 요소를 반환
+
+- Array.prototype.findIndex((element, index, array) => {})
+
+  - 콜백 함수를 만족하는 첫 인덱스를 반환
+  - 해당하는 값이 없으면 -1 반환
+
+- Array.prototype.indexOf(search, fromIndex)
+
+  - 인자로 받은 값에 해당하는 첫 인덱스를 반환
+  - 해당하는 값이 없으면 -1 반환
+
 - Array.prototype.slice(Number startIdx, Number endIdx)
 
   - 인수로 주어진 시작 인덱스부터 종료 인덱스 전까지 추출하여 새 문자열로 반환한다. 단, 인수로 주어진 인덱스가 음수일 때는 뒤에서부터 인덱스를 세어 위치를 찾고 시작 인덱스가 종료 인덱스보다 크다면 ""을 반환한다.
