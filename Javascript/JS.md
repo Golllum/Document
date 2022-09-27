@@ -1,5 +1,31 @@
 ## Javascript
 
+- Falsy value
+
+  - 0, "", null, undefined, NaN
+  - array는 Object 이므로 toString() 함수를 가지는데, 이 함수는 각 원소를 ,로 구분하여 문자열로 만드는 함수이다. 따라서 array가 연산에 사용됐을 때 내부적으로 toString() 함수가 호출되어 array를 string으로 바꾸고 연산을 한다.
+
+    ```
+    if([] == 0) {
+      // true
+    }
+
+    // 1단계 - [] == 0 => '' == 0  :  배열 []이 빈 문자열 ''로 변환된다.
+    if('' == 0) {
+      // true
+    }
+
+    // 2단계 - '' == 0 => 0 == 0 : 문자열 ''이 숫자 0으로 변환된다.
+    if(0 == 0) {
+      // true
+    }
+
+    // 3단계 - 0 == 0 => true
+    if(true) {
+      // true
+    }
+    ```
+
 - Single Threaded Language
 
   - 하나의 Stack에서 실행되기 때문에 병렬 처리를 할 수 없다.
