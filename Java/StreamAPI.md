@@ -2,7 +2,7 @@
 
 함수형 프로그래밍 vs 객체지향 프로그래밍
 
-- https://mangkyu.tistory.com/111
+- https://mangkyu.tistory.com/111 (참고)
 
 Stream API
 
