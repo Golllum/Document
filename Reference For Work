@@ -12,7 +12,16 @@
 2. RFP : Request for Proposal
 제안요청서로, 발주자가 특정 과제의 수행에 필요한 요구사항을 체계적으로 정리하여 제시함으로써 제안자가 제안서를 작성하는데 도움을 주기 위한 문서
 
-3. Front Office
+3. VRB : Value Review Board
+수주가치평가로, 수주 이전에 수주 관련 전략 및 가치성에 대해 검토하는 회의체를 말함.
+
+4. PoC : Proof of Concept
+개념(기술) 검증으로, 새로운 프로젝트에 대한 실현 가능성 및 효과와 효용 등을 기술적인 관점에서 검증하는 것을 말함
+
+5. BMT : Bench Marking Test
+성능테스트로, 도입하고자 하는 솔루션의 boundary가 정해지면 몇몇 대상 Vendor들을 선정하여 제품 성능을 비교 및 테스트하는 것을 말하며 부하 테스트, 스트레스 테스트 등을 진행함
+
+6. Front Office
 Investment Banking(IB), Sales&Trading(S&T), Research로 나눌 수 있으며 소위 수익을 내는 부서
 시장에서의 역할에 따라 IB는 발행시장(Primary Market), S&T는 유통시장(Secondary Market)을 담당
 
@@ -24,28 +33,28 @@ IPO, 유상증자 등의 방식으로 보통주, 상환우선주, 전환상환�
 DCM(Debt Capital Markets) 부서에서는 부채 조달을 위해 채권을 발행한다. 
 기업의 사정에 따라 일반채권(Straight Bond, SB) 말고도 전환사채(Convertible Bond, CB), 신주인수권부사채(Bond with Warrant, BW) 등을 발행하기도 하며 기타 유동화증권, M&A 등을 통해 외부자금을 수혈해줄 수도 있음
 
-4. IBD : Investment Banking Division
+7. IBD : Investment Banking Division
 기업금융이라고도 하며, 고객들을 자본시장과 연결시켜 주는 일을 하는 부서
 
-5. Security Token
+8. Security Token
 토큰증권으로, 분산원장 기술(Distributed Ledger Technology)을 활용해 자본시장법상 증권을 디지털화한 것이며 
 중앙집중적으로 등록·관리하는 기존의 주식·채권처럼 발행하고 거래하는 방식이 아닌 탈중앙화를 특성으로 하는 블록체인 기술을 기반으로 소규모 다양한 자산에 대한 증권 발행이 가능하는 특징임
 
 빌딩, 미술품, 음원 저작권 등 기존 증권 방식으로는 거래가 어려운 다양한 자산에 대한 조각투자 수요를 반영해 디지털 증권 형태로 발행이 가능
 예를들어, 100만원짜리 예술품을 100만원이 아닌 100원짜리 토큰 10000개로 판매할 수 있음
 
-6. IPO & 유상증자
+9. IPO & 유상증자
 IPO(Initial Public Offering)는 자사주를 주식시장(KOSPI, NASDAQ 등)에 등록하여 일반대중들에게 기업의 발행주식을 분산시키는 것을 말하며 그 과정에서 기업실적 및 정보 등을 공개해야만 하므로 상장과 기업공개를 합하여 IPO라고 말함.
 기업에서 발행한 주식을 증권시장에서 자유롭게 거래될 수 있게 함으로써, 기업의 자금조달을 원활하게 하고 소유·경영의 분리를 통하여 경영합리화를 도모하는데 목적이 있음.
 
 유상증자란, 주식회사에서 주식을 추가로 발행 및 상장하여 자금을 추가로 조달하는 것을 의미한다. 증자란 자본금을 늘리는 것을 의미한다.
 무상증자란, 주식을 추가로 발행하여 발행한 주식을 무료로 기존 주주들에게 나눠 주는 것을 의미하며 주당 가격을 낮춰 유동성을 늘릴 수 있다.
 
-7. FATCA : Foreign Account Tax Compliance Act
+10. FATCA : Foreign Account Tax Compliance Act
 해외 금융계좌 신고제도로, 세계 금융회사들이 미국 납세자가 보유한 5만달러 이상 계좌에 대한 정보를 미 국세청에 제공하도록 의무화한 미국 법률
 금융정보 교환(CRS를 기용하여)을 통해 과세자료를 확보하여 고의적인 조세회피자 등을 식별하는게 목적
 
-8. CRS : Common Reporting Standard
+11. CRS : Common Reporting Standard
 경제협력개발기구(OECD)가 2014년 개발한 과세당국 간 글로벌 수준의 금융계좌 관련 정보 자동 교환을 위한 정보 표준
 
 
